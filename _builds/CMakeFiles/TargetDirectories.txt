@@ -1,0 +1,3 @@
+D:/CMAKE_STUDY/_builds/CMakeFiles/foo.elf.dir
+D:/CMAKE_STUDY/_builds/CMakeFiles/ALL_BUILD.dir
+D:/CMAKE_STUDY/_builds/CMakeFiles/ZERO_CHECK.dir

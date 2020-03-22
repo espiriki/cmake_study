@@ -1,0 +1,440 @@
+The target system is: Generic -  - arm
+The host system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/SysGCC/9.2.1/SysGCC/bin/make.exe cmTC_ca59a/fast && D:/SysGCC/9.2.1/SysGCC/bin/make.exe -f CMakeFiles/cmTC_ca59a.dir/build.make CMakeFiles/cmTC_ca59a.dir/build
+make.exe[1]: Entering directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca59a.dir/testCCompiler.c.obj
+D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe    -o CMakeFiles/cmTC_ca59a.dir/testCCompiler.c.obj   -c D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ca59a
+D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe    --specs=nosys.specs  "CMakeFiles/cmTC_ca59a.dir/testCCompiler.c.obj"   -o cmTC_ca59a 
+make.exe[1]: Leaving directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/SysGCC/9.2.1/SysGCC/bin/make.exe cmTC_4ac0e/fast && D:/SysGCC/9.2.1/SysGCC/bin/make.exe -f CMakeFiles/cmTC_4ac0e.dir/build.make CMakeFiles/cmTC_4ac0e.dir/build
+make.exe[1]: Entering directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj
+D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj   -c D:/Cmake/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1.exe -quiet -v -iprefix d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi -D__USES_INITFINI__ D:/Cmake/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\jozec\AppData\Local\Temp\ccb6l7bO.s
+GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"
+ignoring nonexistent directory "d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib/gcc/arm-none-eabi/9.2.1/../../../../include"
+ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/include
+ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed
+ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d48d906eaae8455a6540c74ba2cbe16a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj C:\Users\jozec\AppData\Local\Temp\ccb6l7bO.s
+GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025
+COMPILER_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_4ac0e
+D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe    --specs=nosys.specs -v "CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj"   -o cmTC_4ac0e 
+Using built-in specs.
+Reading specs from d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe
+COLLECT_LTO_WRAPPER=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+COMPILER_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_4ac0e' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe -plugin d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll -plugin-opt=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\jozec\AppData\Local\Temp\ccNbnBtZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi -X -o cmTC_4ac0e d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crti.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtbegin.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/crt0.o -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1 -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib -Ld:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtend.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtn.o
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_4ac0e' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+make.exe[1]: Leaving directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include]
+    add: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+    add: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include] ==> [D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1/include]
+  collapse include dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed] ==> [D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  collapse include dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include] ==> [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include]
+  implicit include dirs: [D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1/include;D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1/include-fixed;D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/SysGCC/9.2.1/SysGCC/bin/make.exe cmTC_4ac0e/fast && D:/SysGCC/9.2.1/SysGCC/bin/make.exe -f CMakeFiles/cmTC_4ac0e.dir/build.make CMakeFiles/cmTC_4ac0e.dir/build]
+  ignore line: [make.exe[1]: Entering directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj   -c D:/Cmake/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1.exe -quiet -v -iprefix d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi -D__USES_INITFINI__ D:/Cmake/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\jozec\AppData\Local\Temp\ccb6l7bO.s]
+  ignore line: [GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"]
+  ignore line: [ignoring nonexistent directory "d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib/gcc/arm-none-eabi/9.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/include]
+  ignore line: [ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  ignore line: [ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d48d906eaae8455a6540c74ba2cbe16a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj C:\Users\jozec\AppData\Local\Temp\ccb6l7bO.s]
+  ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025]
+  ignore line: [COMPILER_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking C executable cmTC_4ac0e]
+  ignore line: [D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe    --specs=nosys.specs -v "CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj"   -o cmTC_4ac0e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
+  ignore line: [COMPILER_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_4ac0e' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  link line: [ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe -plugin d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll -plugin-opt=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\jozec\AppData\Local\Temp\ccNbnBtZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi -X -o cmTC_4ac0e d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crti.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtbegin.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/crt0.o -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1 -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib -Ld:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtend.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtn.o]
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\jozec\AppData\Local\Temp\ccNbnBtZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4ac0e] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crti.o] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtbegin.o] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/crt0.o] ==> ignore
+    arg [-Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1] ==> dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1]
+    arg [-Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc] ==> dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc]
+    arg [-Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib] ==> dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib]
+    arg [-Ld:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib] ==> dir [d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib]
+    arg [CMakeFiles/cmTC_4ac0e.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtend.o] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtn.o] ==> ignore
+  collapse library dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1] ==> [D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1]
+  collapse library dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc] ==> [D:/SysGCC/9.2.1/SysGCC/lib/gcc]
+  collapse library dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib] ==> [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/lib]
+  collapse library dir [d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib] ==> [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/lib]
+  implicit libs: [gcc;c;gcc;c;nosys]
+  implicit dirs: [D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1;D:/SysGCC/9.2.1/SysGCC/lib/gcc;D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/SysGCC/9.2.1/SysGCC/bin/make.exe cmTC_60678/fast && D:/SysGCC/9.2.1/SysGCC/bin/make.exe -f CMakeFiles/cmTC_60678.dir/build.make CMakeFiles/cmTC_60678.dir/build
+make.exe[1]: Entering directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60678.dir/testCXXCompiler.cxx.obj
+D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe     -o CMakeFiles/cmTC_60678.dir/testCXXCompiler.cxx.obj -c D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_60678
+D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe     --specs=nosys.specs  "CMakeFiles/cmTC_60678.dir/testCXXCompiler.cxx.obj"   -o cmTC_60678 
+make.exe[1]: Leaving directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/SysGCC/9.2.1/SysGCC/bin/make.exe cmTC_c297b/fast && D:/SysGCC/9.2.1/SysGCC/bin/make.exe -f CMakeFiles/cmTC_c297b.dir/build.make CMakeFiles/cmTC_c297b.dir/build
+make.exe[1]: Entering directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj
+D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe    -v -o CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Cmake/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus.exe -quiet -v -iprefix d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi -D__USES_INITFINI__ D:/Cmake/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\jozec\AppData\Local\Temp\ccq7w5lp.s
+GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"
+ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"
+ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"
+ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"
+ignoring nonexistent directory "d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib/gcc/arm-none-eabi/9.2.1/../../../../include"
+ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1
+ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi
+ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward
+ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/include
+ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed
+ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 170ff1c01984ee844c36675da8099675
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\jozec\AppData\Local\Temp\ccq7w5lp.s
+GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025
+COMPILER_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking CXX executable cmTC_c297b
+D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe     --specs=nosys.specs -v "CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_c297b 
+Using built-in specs.
+Reading specs from d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe
+COLLECT_LTO_WRAPPER=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+COMPILER_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/;d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_c297b' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe -plugin d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll -plugin-opt=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\jozec\AppData\Local\Temp\ccGBn5Tx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi -X -o cmTC_c297b d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crti.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtbegin.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/crt0.o -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1 -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib -Ld:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtend.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtn.o
+COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_c297b' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+make.exe[1]: Leaving directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1]
+    add: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi]
+    add: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward]
+    add: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include]
+    add: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+    add: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1] ==> [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include/c++/9.2.1]
+  collapse include dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi] ==> [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include/c++/9.2.1/arm-none-eabi]
+  collapse include dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward] ==> [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include/c++/9.2.1/backward]
+  collapse include dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include] ==> [D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1/include]
+  collapse include dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed] ==> [D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  collapse include dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include] ==> [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include]
+  implicit include dirs: [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include/c++/9.2.1;D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include/c++/9.2.1/arm-none-eabi;D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include/c++/9.2.1/backward;D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1/include;D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1/include-fixed;D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/SysGCC/9.2.1/SysGCC/bin/make.exe cmTC_c297b/fast && D:/SysGCC/9.2.1/SysGCC/bin/make.exe -f CMakeFiles/cmTC_c297b.dir/build.make CMakeFiles/cmTC_c297b.dir/build]
+  ignore line: [make.exe[1]: Entering directory `D:/CMAKE_STUDY/_builds_makefile/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe    -v -o CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Cmake/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus.exe -quiet -v -iprefix d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi -D__USES_INITFINI__ D:/Cmake/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\jozec\AppData\Local\Temp\ccq7w5lp.s]
+  ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"]
+  ignore line: [ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"]
+  ignore line: [ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"]
+  ignore line: [ignoring nonexistent directory "d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib/gcc/arm-none-eabi/9.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/sysgcc/9.2.1/sysgcc/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1]
+  ignore line: [ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi]
+  ignore line: [ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward]
+  ignore line: [ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/include]
+  ignore line: [ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  ignore line: [ d:\sysgcc\9.2.1\sysgcc\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 170ff1c01984ee844c36675da8099675]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\jozec\AppData\Local\Temp\ccq7w5lp.s]
+  ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025]
+  ignore line: [COMPILER_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking CXX executable cmTC_c297b]
+  ignore line: [D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe     --specs=nosys.specs -v "CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_c297b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=D:/SysGCC/9.2.1/SysGCC/bin/arm-none-eabi-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
+  ignore line: [COMPILER_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-specs=nosys.specs' '-v' '-o' 'cmTC_c297b' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  link line: [ d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe -plugin d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll -plugin-opt=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\jozec\AppData\Local\Temp\ccGBn5Tx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi -X -o cmTC_c297b d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crti.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtbegin.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/crt0.o -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1 -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc -Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib -Ld:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtend.o d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtn.o]
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\jozec\AppData\Local\Temp\ccGBn5Tx.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=d:\sysgcc\9.2.1\sysgcc\bin\../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c297b] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crti.o] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtbegin.o] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/crt0.o] ==> ignore
+    arg [-Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1] ==> dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1]
+    arg [-Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc] ==> dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc]
+    arg [-Ld:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib] ==> dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib]
+    arg [-Ld:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib] ==> dir [d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib]
+    arg [CMakeFiles/cmTC_c297b.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtend.o] ==> ignore
+    arg [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/crtn.o] ==> ignore
+  collapse library dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1] ==> [D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1]
+  collapse library dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc] ==> [D:/SysGCC/9.2.1/SysGCC/lib/gcc]
+  collapse library dir [d:/sysgcc/9.2.1/sysgcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib] ==> [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/lib]
+  collapse library dir [d:/sysgcc/9.2.1/sysgcc/bin/../arm-none-eabi/lib] ==> [D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/lib]
+  implicit libs: [stdc++;m;gcc;c;gcc;c;nosys]
+  implicit dirs: [D:/SysGCC/9.2.1/SysGCC/lib/gcc/arm-none-eabi/9.2.1;D:/SysGCC/9.2.1/SysGCC/lib/gcc;D:/SysGCC/9.2.1/SysGCC/arm-none-eabi/lib]
+  implicit fwks: []
+
+
